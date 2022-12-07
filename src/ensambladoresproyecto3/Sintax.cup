@@ -1,0 +1,26 @@
+package ensambladoresproyecto3;
+
+import java_cup.runtime.Symbol;
+
+parser code
+{:
+    public Symbol s;
+    
+    public void syntax_error(Symbol s){
+        this.s = s;
+    }
+
+    public Symbol getS(){
+        return this.s;
+}
+
+   public 
+:};
+/*
+terminal Pseudoinstruccion, dw, Num_exa, Pseudo_const_num, Simbolo, ERROR, Const_carac, Pseudo_const_hexa, Numero, Pseudo_const_bin, db, Pseudo_const_carac,(???);
+
+non terminal PILA;
+
+PILA ::=
+    dw Simbolo Pseudo_const_num
+;*/
